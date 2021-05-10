@@ -8,10 +8,10 @@ async function callApi() {
 
   console.log(json);
 
-  const results = json.id[74];
+  const results = json;
 
   results.forEach(function (result) {
-    resultsContainer.innerHTML += "<h3>hfhf</h3>";
+    resultsContainer.innerHTML += "<h3>${title}</h3>";
   });
 }
 

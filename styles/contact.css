@@ -20,6 +20,8 @@ button {
 @media screen and (max-width: 750px) {
   .contact {
     display: inline-block;
-    align-items: center;
+  }
+  #lastname {
+    margin-left: 45px;
   }
 }

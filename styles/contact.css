@@ -8,7 +8,7 @@
   background: rgb(233, 232, 232);
   padding: 25px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px rgb(110, 110, 110);
+  box-shadow: 2px 2px 2px rgb(221, 221, 221);
 }
 
 .wrapper h2 {
@@ -16,6 +16,42 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.wrapper .inputFields {
+  margin-bottom: 10px;
+}
+.wrapper .inputFields input[type="text"],
+input[type="email"],
+.wrapper textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+.wrapper textarea {
+  height: 80px;
+  resize: none;
+}
+
+.wrapper .btn input[type="submit"] {
+  border: 0;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #84abdd;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.wrapper #errorMessage {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #f62f39;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 750px) {

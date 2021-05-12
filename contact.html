@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/contact.css" />
-    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/global.css" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Contact</title>
   </head>
   <body>
@@ -20,25 +20,27 @@
       <a href="contact.html">Contact</a>
       <a href="blog.html">Blog</a>
     </nav>
-    <h1>Contact</h1>
-    <div class="contact"></div>
-    <span class=firstName>First Name</span>
-    <input type="text" placeholder="First Name" id="firstname" />
-    <br />
-    <span class="lastName">Last Name</span>
-    <input type="text" placeholder="Last Name" id="latsname" />
-    <br />
-    <span class="email"> E-mail</span>
-    <input type="email" placeholder="E-mail" id="email" />
-    <br />
-
-    <span>Your message</span>
-    <br />
-    <textarea name="question" id="question" cols="30" rows="10"></textarea>
-    <br /><input type="checkbox" id="newsleter" /> Send me newsletter
-    <br />
-    <button onclick="sendContact();">Send</button>
-  </div>
+    <div class="wrapper">
+      <h2>Contact</h2>
+      <div id="errorMessage"></div>
+      <form id="contacForm">
+        <div class="inputFields">
+          <input type="text" placeholder="Name" id="name" />
+        </div>
+        <div class="inputFields">
+          <input type="text" placeholder="Subject" id="subject" />
+        </div>
+        <div class="inputFields">
+          <input type="email" placeholder="Email" id="email" />
+        </div>
+        <div class="inputFields">
+          <textarea id="message" placeholder="Message"></textarea>
+        </div>
+        <div class="btn">
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
     <script src="script/contact.js"></script>
   </body>
 </html>

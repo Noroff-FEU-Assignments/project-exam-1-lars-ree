@@ -1,6 +1,10 @@
 * {
   font-family: "Quicksand", sans-serif;
   font-weight: 320;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
 }
 
 #button-previous {

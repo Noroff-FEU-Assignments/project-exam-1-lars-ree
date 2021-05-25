@@ -11,7 +11,7 @@ async function callApi() {
   const results = json;
 
   results.forEach(function (result) {
-    resultsContainer.innerHTML += "${post.title}";
+    resultsContainer.innerHTML += "${id[77].title}";
   });
 }
 

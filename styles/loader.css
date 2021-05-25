@@ -1,4 +1,7 @@
 .loader {
+  position: absolute;
+  top: -20%;
+  left: 40%;
   display: flex;
   height: 90vh;
   align-items: center;
@@ -25,4 +28,16 @@ span {
   font-size: 60px;
   --delay: 0s;
   animation: load 1.2s var(--delay) infinite ease-in;
+}
+
+@media screen and (max-width: 750px) {
+  .loader {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: flex;
+  }
+  span {
+    font-size: 20px;
+  }
 }

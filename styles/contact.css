@@ -44,6 +44,9 @@ input[type="email"],
   border-radius: 25px;
   cursor: pointer;
 }
+.wrapper .btn:hover {
+  cursor: pointer;
+}
 
 .wrapper #errorMessage {
   margin-bottom: 20px;
@@ -56,7 +59,7 @@ input[type="email"],
 
 @media screen and (max-width: 750px) {
   .wrapper {
-    top: 60%;
+    top: 68%;
     max-width: 300px;
   }
 }
